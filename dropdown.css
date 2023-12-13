@@ -7,9 +7,9 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ff00fb; /* Dropdown BG */
+    background-color: #8505c5; /* Dropdown BG */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Box shadow  */
-    z-index: 1;
+    z-index: 40;
     border-radius: 5px;
 }
 
