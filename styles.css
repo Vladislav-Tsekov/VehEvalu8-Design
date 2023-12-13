@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans:wght@400;700&family=PT+Serif&display=swap');
 
+#homeButton, #gearButton, #motoButton {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#homeButton a, #motoButton a {
+    color: #8505c5;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -8,7 +22,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: rgb(219, 127, 29);
     padding: 10px;
     text-align: center;
 }
@@ -37,4 +51,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
